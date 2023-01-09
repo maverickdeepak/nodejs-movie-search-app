@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Movie App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/main.css" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Movie Search Application</h1>
+        <section class="form-section">
+            <form action="/search" method="POST">
+                <div class="form-group">
+                    <input type="text" name="search" placeholder="Search Movie Name" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Search</button>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
